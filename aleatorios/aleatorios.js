@@ -23,10 +23,9 @@ for (let indice = 0; indice < cantidad; indice++) {
     let numeroGenerado = generarNumeroAleatorio();
 
     aleatorios.push(numeroGenerado);
-    mostrarResultados(aleatorios);
 }
 
-console.log(aleatorios);
+    mostrarResultados(aleatorios);
 
 }
 
