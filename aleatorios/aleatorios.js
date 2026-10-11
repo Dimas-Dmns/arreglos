@@ -16,8 +16,16 @@ function generarAleatorios() {
         return;
     }
 
-    for (let indice = 0; indice < cantidad; indice++) {
-        console.log(indice);
-    }
+   
+for (let indice = 0; indice < cantidad; indice++) {
+    console.log(indice);
+
+    let numeroGenerado = generarNumeroAleatorio();
+
+    aleatorios.push(numeroGenerado);
+}
+
+console.log(aleatorios);
+
 }
 
